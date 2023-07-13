@@ -13,8 +13,7 @@ header {
 
 main {
     width: 1000px;
-    height: 600px;
-    display: block;
+    display: table;
     background-color: #ffffff;
     border-radius: 8px;
     margin-top: 25px;
@@ -28,6 +27,7 @@ main {
     display: table;
     margin-left: 25px;
     margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
 }
 
