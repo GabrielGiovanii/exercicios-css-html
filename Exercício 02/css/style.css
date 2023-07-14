@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+main {
+    width: 70%;
+    background-color: rgb(143, 188, 172);
+    display: table;
+    margin: 50px auto 0 auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    width: 300px;
+    display: table;
+}
+
+.card {
+    width: 100%;
+    display: table;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card .img-head {
+    border: 8px solid yellow;
+}
