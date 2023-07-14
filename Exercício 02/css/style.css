@@ -10,11 +10,13 @@ main {
     margin: 50px auto 0 auto;
     border-radius: 5px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .card-container {
     width: 270px;
     display: table;
+    float: left;
 }
 
 .card {
@@ -45,4 +47,29 @@ main {
     line-height: 24px;
     color: blueviolet;
     margin: 0;
+}
+
+.card .card-footer {
+    margin-top: 12px;
+}
+
+/* Botões */
+.btn {
+    width: auto;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    display: inline-block;
+    background-color: rgb(0, 255, 51);
+    border-radius: 4px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.card .card-footer .btn {
+    width: 100%;
 }
