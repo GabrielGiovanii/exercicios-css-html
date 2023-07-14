@@ -13,7 +13,7 @@ main {
 }
 
 .card-container {
-    width: 300px;
+    width: 270px;
     display: table;
 }
 
@@ -22,8 +22,27 @@ main {
     display: table;
     background-color: #ffffff;
     border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-.card .img-head {
-    border: 8px solid yellow;
+.card .card-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.card .card-body {
+    display: table;
+    margin-top: 12px;
+}
+
+.card .card-body h1 {
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    color: blueviolet;
+    margin: 0;
 }
