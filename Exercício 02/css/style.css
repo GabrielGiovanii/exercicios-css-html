@@ -4,19 +4,16 @@ body {
 }
 
 main {
-    width: 70%;
-    background-color: rgb(143, 188, 172);
+    width: 90%;
     display: table;
     margin: 50px auto 0 auto;
-    border-radius: 5px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .card-container {
     width: 270px;
     display: table;
     float: left;
+    margin: 60px 60px 0 0;
 }
 
 .card {
@@ -49,8 +46,19 @@ main {
     margin: 0;
 }
 
+.card .card-body p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 15px;
+    margin: 15px 0 0 0;
+}
+
 .card .card-footer {
     margin-top: 12px;
+}
+
+.card .card-image-top {
+    margin-top: -55px;
 }
 
 /* Botões */
