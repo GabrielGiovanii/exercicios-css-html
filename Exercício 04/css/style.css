@@ -12,11 +12,11 @@ body {
     margin: 50px auto;
     box-sizing: border-box;
     flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
 }
 
 .box {
     width: 100%;
-    height: 100px;
     background-color: blueviolet;
     border-radius: 8px;
     color: aliceblue;
@@ -24,4 +24,5 @@ body {
     padding: 20px;
     box-sizing: border-box;
     border: 8px solid black;
+    flex-basis: 25%;
 }
