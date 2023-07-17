@@ -27,5 +27,21 @@ body {
     padding: 20px;
     box-sizing: border-box;
     border: 8px solid black;
-    flex-basis: 30%;
+    flex-basis: 10%;
+}
+
+.order-01 {
+    order: 1;
+}
+
+.order-02 {
+    order: 2;
+}
+
+.order-03 {
+    order: 3;
+}
+
+.order-04 {
+    order: 4;
 }
