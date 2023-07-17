@@ -13,6 +13,7 @@ body {
     box-sizing: border-box;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
+    justify-content: space-between;
 }
 
 .box {
