@@ -11,10 +11,11 @@ body {
     border-radius: 8px;
     margin: 50px auto;
     box-sizing: border-box;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    align-content: space-evenly;
 }
 
 .box {
@@ -26,5 +27,5 @@ body {
     padding: 20px;
     box-sizing: border-box;
     border: 8px solid black;
-    flex-basis: 25%;
+    flex-basis: 30%;
 }
