@@ -15,7 +15,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    align-content: space-evenly;
 }
 
 .box {
@@ -44,4 +43,16 @@ body {
 
 .order-04 {
     order: 4;
+}
+
+.grow-01 {
+    flex-grow: 1;
+}
+
+.grow-03 {
+    flex-grow: 3;
+}
+
+.grow-04 {
+    flex-grow: 4;
 }
