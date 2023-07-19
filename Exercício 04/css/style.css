@@ -68,3 +68,7 @@ body {
 .shrink-03 {
     flex-shrink: 4;
 }
+
+.align_self {
+    align-self: flex-start;
+}
