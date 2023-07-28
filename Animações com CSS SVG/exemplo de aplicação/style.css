@@ -1,0 +1,52 @@
+@keyframes animation-btn {
+    0% {
+        width: 200px;
+        background-color: #b12d2d;
+        box-shadow: 10px 5px 0px black;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    50% {
+        width: 180px;
+        background-color: #b12d2d;
+        box-shadow: 10px 0px 0px black;
+        font-size: 40px;
+        color: #fff;
+    }
+
+    100% {
+        width: 200px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px black;
+        font-size: 50px;
+        color: #a4109d;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 100px;
+    width: 200px;
+    display: block;
+    background-color: #b12d2d;
+    border-radius: 8px;
+    margin: 100px auto;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 10px 5px 0px black;
+    transition: all 0.8s ease-out;
+}
+
+.btn:hover {
+    animation: animation-btn 0.8s forwards;
+}
